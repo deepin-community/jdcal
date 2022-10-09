@@ -1,0 +1,28 @@
+jdcal (1.0-1.3) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #936762
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 02 Feb 2020 15:10:30 -0500
+
+jdcal (1.0-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix a mistake in ${python:Depends} for Python3 (needs to be
+    ${python3:Depends}). Thanks again to Adrian Bunk. (Closes: #867406)
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 24 Sep 2017 22:15:10 -0300
+
+jdcal (1.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Added ${python:Depends} variable to Depends field in all packages.
+    Thanks to Adrian Bunk <bunk@debian.org>. (Closes: #867406)
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 24 Sep 2017 12:29:22 -0300
+
+jdcal (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #772689)
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Wed, 10 Dec 2014 00:24:56 -0500

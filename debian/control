@@ -1,0 +1,21 @@
+Source: jdcal
+Section: python
+Priority: optional
+Maintainer: Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper (>= 9), python3, dh-python
+Standards-Version: 3.9.6
+Homepage: https://github.com/phn/jdcal
+Vcs-Git: http://github.com/neurodebian/jdcal -b debian
+Vcs-Browser: http://github.com/neurodebian/jdcal
+
+Package: python3-jdcal
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Julian dates from proleptic Gregorian and Julian calendars
+ This module contains functions for converting between Julian dates
+ and calendar dates.
+ .
+ Different regions of the world switched to Gregorian calendar from
+ Julian calendar on different dates. Having separate functions for
+ Julian and Gregorian calendars allow maximum flexibility in choosing
+ the relevant calendar.
